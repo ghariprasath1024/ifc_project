@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+  *{
+    margin:0px;
+    padding:0px;
+    max-width: 1000px;
+  }
+  body{
+    padding-top:30px;
+    background-color:white;
+  }
+  #border{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+  }
+  .box{
+   padding-top:3px;
+   background-color:gray;
+   border-radius:10px;
+   transition: background 0.5s ease;
+   box-shadow:8px 8px 16px rgb(136, 129, 129);
+  }
+  div img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    padding-left:30px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .box:hover{
+    transform:translateY(-3px);
+    box-shadow:2px 8px 2px rgb(30, 31, 30);
+  }
+  .header{
+    padding-top:6px;
+    padding-bottom: 8px;
+    text-align:center;
+    font-weight:bold;
+  }
+  h1{
+    padding-bottom:10px;
+    text-align:justify;
+  }
+  .para{
+    padding-top:10px;
+    margin:10px;
+  }
+  </style>
+</head>
+<body>
+  <h1>Place of Travel </h1>
+<div id="border">
+  <div class="box">
+    <div class="header">OOTY</div>
+    <div><img src="image/1751975887267.jpg" alt="pic"></div>
+    <p class="para">Ooty, also known as Udhagamandalam, is a popular hill station in Tamil Nadu, India, renowned for its scenic beauty, lush tea gardens, and pleasant climate. It's often called the "Queen of the Hills". Key attractions include the Government Botanical Garden, Ooty Lake, Doddabetta Peak, and various tea estates. The town is also known for its colonial-era charm and is a favorite destination for tourists seeking natural beauty and a peaceful escape. 
+</p>
+  </div>
+  <div class="box">
+    <div class="header">HISTORY</div>
+    <div><img src="image/1751975887260.jpg" alt="pic"></div>
+    <p class="para">They are typically in urban centers and have broad cultural and historical appeal. Our selection of the top attractions honors local heritage and cultural landmarks at major destinations that have captured the world's imagination and inspired travelers to circle the globe for architectural marvels and must-see destinations.</p>
+  </div>
+  <div class="box">
+    <div class="header">PYRAMID</div>
+    <div><img src="image/1751975887253.jpg" alt="pic"></div>
+    <p class="para">Great Pyramid of Giza: Giza, Egypt As the crown jewel of the Giza pyramid complex, the Great Pyramid of Giza is the last of the Seven Wonders of the Ancient World still standing. </p>
+  </div>
+</div>
+</body>
+</html>
